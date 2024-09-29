@@ -1,0 +1,17 @@
+S3 S2 S1 S0 Cin
+0  0  0  0  0   F=DR+AC
+0  0  0  0  1   F=DR+AC+1
+0  0  0  1  0   F=DR+AC'
+0  0  0  1  1   F=DR+AC'+1(DR-AC)
+0  0  1  0  0   F=DR
+0  0  1  0  1   F=DR+1
+0  0  1  1  0   F=DR-1
+0  0  1  1  1   F=DR
+0  1  0  0  0   F=DR∧AC
+0  1  0  1  0   F=DRvAC
+0  0  1  1  0   F=DR⊕AC
+0  1  1  1  0   F=AC'
+1  0  0  0  0   F=shlAC
+1  1  0  0  0   F=shrAC
+
+ 
